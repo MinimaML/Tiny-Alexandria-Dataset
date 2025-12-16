@@ -23,7 +23,7 @@ if not torch.cuda.is_available():
     sys.exit(1)
 
 # --- CONFIGURATION ---
-DEFAULT_MODEL_NAME = "Qwen3-Next-80B-A3B-Thinking" # Updated default
+DEFAULT_MODEL_NAME = "Qwen/Qwen3-Next-80B-A3B-Thinking" # Updated default
 OUTPUT_DIR = "data/alexandria"
 STATE_FILE = "curation_state.json"
 TEMPLATE_DIR = "alexandria/templates"

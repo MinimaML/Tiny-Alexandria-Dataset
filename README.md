@@ -15,7 +15,7 @@ The dataset is strictly curated into five "Buckets," each designed to train a sp
 | :--- | :--- | :--- | :--- |
 | **Academic** | FineWeb-Edu | **Factuality & Logic**: Converting raw text into textbook-style explanations with reasoning steps. | 35% |
 | **Instruction** | UltraChat | **Obedience & Planning**: Handling complex user requests with a "Thinking" phase before answering. | 25% |
-| **Creative** | TinyStories | **coherence & Fantasy**: Writing engaging narratives with consistent character logic. | 15% |
+| **Creative** | TinyStories | **Coherence & Fantasy**: Writing engaging narratives with consistent character logic. | 15% |
 | **Code** | MBPP / The Stack | **Algorithmic Thinking**: Solving coding problems with step-by-step logic and comments. | 10% |
 | **Memory** | Wikitext-103 | **Long-Context Retrieval**: "Needle in a Haystack" tasks to train context window utilization. | 15% |
 

@@ -35,5 +35,5 @@ dataset = load_dataset("Wilbatronic/alexandria-100k")
 ## ⚖️ License
 This dataset is released under the **Apache 2.0** license. You are free to use it for research and commercial purposes.
 
-##  citation
+##  Citation
 If you use this dataset, please credit the **MinimaML / Alexandria Project**.

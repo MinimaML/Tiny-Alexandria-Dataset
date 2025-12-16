@@ -26,7 +26,7 @@ if not torch.cuda.is_available():
 DEFAULT_MODEL_NAME = "Qwen/Qwen3-Next-80B-A3B-Instruct" # Updated default
 OUTPUT_DIR = "data/alexandria"
 STATE_FILE = "curation_state.json"
-TEMPLATE_DIR = "alexandria/templates"
+TEMPLATE_DIR = "templates"
 
 TEMPLATES = {
     "academic": "refine_academic.md",

@@ -121,7 +121,8 @@ def curate_alexandria(args):
         model=args.model, 
         tensor_parallel_size=args.tensor_parallel,
         max_model_len=8192, 
-        gpu_memory_utilization=0.95,
+        gpu_memory_utilization=0.90, # Reduced to leave room for Sampler Buffer
+        max_num_seqs=256, # Limit concurrent sequences to save overhead
         quantization=args.quantization
     )
     

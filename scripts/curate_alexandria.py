@@ -121,7 +121,8 @@ def curate_alexandria(args):
         model=args.model, 
         tensor_parallel_size=args.tensor_parallel,
         max_model_len=8192, 
-        gpu_memory_utilization=0.95
+        gpu_memory_utilization=0.95,
+        quantization=args.quantization
     )
     
     # Load Templates
@@ -206,6 +207,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL_NAME)
     parser.add_argument("--total_samples", type=int, default=100000)
     parser.add_argument("--tensor_parallel", type=int, default=1)
+    parser.add_argument("--quantization", type=str, default=None, help="e.g. 'fp8' or 'bitsandbytes'")
     args = parser.parse_args()
     
     curate_alexandria(args)
